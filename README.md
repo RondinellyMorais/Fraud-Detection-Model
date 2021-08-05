@@ -25,10 +25,15 @@
  ## Solution Strategy
  **Step 01. Data Description** Firstly, we loading the dataset and take overview about columns and rows. </p>
  **Step 02. Data filtering** We checking for missing data in dataset  and checking possible useless columns that do not contain information to modeling.</p>
- **Step 03. Exploratory Data Analysis** </p>
- **Step 04. Data Preparation** </p>
+ **Step 03. Exploratory Data Analysis** We explore the data to find outliers, insights to understand better the data and other points relevant to modeling. </p>
+ **Step 04. Data Preparation** Prepare the date so that machine learning models can learn the specific behavior. </p>
+ **Step 05. Feature Selection** Selection of the most significant attributes to train model. </p>
+ **Step 06. Machine Learning Modelling** Building machine learning train </p>
+ **Step 07. Choose the Best Machine Learning Model** Training some machine learning models and choose the model with best performance. </p>
+ **Step 08. Convert Model Performance to Bussines Values** Convert the metrics scores of model performance in business practical results. </p>
+ **Step 09. Deploy the Model to Production**
  
-
+## Top 3 Data Insght
 Exemplo   | Valor do exemplo
 --------- | ------
 Exemplo 1 | R$ 10
