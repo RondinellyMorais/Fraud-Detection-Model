@@ -31,14 +31,52 @@
  **Step 06. Machine Learning Modelling** Building machine learning train </p>
  **Step 07. Choose the Best Machine Learning Model** Training some machine learning models and choose the model with best performance. </p>
  **Step 08. Convert Model Performance to Bussines Values** Convert the metrics scores of model performance in business practical results. </p>
- **Step 09. Deploy the Model to Production**
+ **Step 09. Deploy the Model to Production** Publish the model in cloud environment so the other people or services can use the results to improve th bussines decision.</p>
  
-## Top 3 Data Insght
-Exemplo   | Valor do exemplo
---------- | ------
-Exemplo 1 | R$ 10
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+## Top 3 Data Insight
+**Hypothese 01** Fraudulent transaction events have an average amount monetary greater than  average non-fraudulent events.</p>
+**True** The hypothesis is confirmed, the average monetary value for fraudulent transactions is much higher than the average for non-fraudulent transactions.</p>
+**Hypothese 02** The average of the time values that occur between transactions, 'step', for fraudulent events must be less than the observed average for non-fraudulent events.</p>
+**False** The average of the time values that occur between transactions for fraudulent events is greater than the average observed for non-fraudulent events.</p>
+**Hypothese 03** All types of payment must take place in the event of fraudulent transactions. </p>
+**False** The 'CASH_OUT' and 'TRANSFER' are the only forms of payment in fraudulent transaction events. </p>
+
+## Machine Learning Model Applied
+Test three type machine learning models: **CatBoostClassifier, RandomForestClassifier and XGBClassifier**.
+
+## Machine Learning Model performance
+**CatBoostClassifier:**
+The best model found was **CatBoostClassifier** because this model fit the data very well. We can see the values of the evaluation metrics in the tables below.
+
+|Classe |precision | recall | f1-score |       
+|-------|--------- | ------ | -------- |       
+|   0   | 0.99     | 0.98   |  0.98    |        
+|   1   | 0.98     | 0.99   |  0.98    |        
+
+|Accuracy |ROC-AUC |
+|---------|--------|
+|0.98     |0.983   |
+
+we can think that this model was overfitted, but the **CatBoostClassifier** uses the 'Overfitting detector is active' feature which stops the model's evolution when overfitting occurs.
+
+**RandomForestClassifier:**
+|Classe |precision | recall | f1-score |       
+|-------|--------- | ------ | -------- |       
+|   0   | 0.94     | 0.95   |  0.94    |        
+|   1   | 0.95     | 0.94   |  0.94    |   
+
+|Accuracy |ROC-AUC |
+|---------|--------|
+|0.94     |0.9434  |
+
+**XGBClassifier**
+|Classe |precision | recall | f1-score |       
+|-------|--------- | ------ | -------- |       
+|   0   | 0.94     | 0.93   |  0.93    |        
+|   1   | 0.93     | 0.94   |  0.93    |   
+
+|Accuracy |ROC-AUC |
+|---------|--------|
+|0.93     |0.9345  |
 
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
