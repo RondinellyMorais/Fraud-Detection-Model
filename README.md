@@ -90,5 +90,5 @@ Lets recap the bussines model: the company will receive 25% of the value of the 
 |------------|----------- | -------------- |      
 |25% of gain | 5% of gain | 100% of loss   |         
  
-
+## 8. Conclusion.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
