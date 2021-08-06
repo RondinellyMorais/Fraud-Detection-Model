@@ -122,9 +122,23 @@ Summarizing the revenue, loss and profit due to classification  all test data by
 |0.25X2500x1467967|0.05X26x178197| 1x10x1467967   |917.711.031     |14.679.670      |903.031.361     |
 
  The **CatBoostClassifier** model was trained using 30% of all fractious records. Then, if we classific all fraudulent transaction records we get revenue, loss and  total profits.
- |Revenues        | Loss           |  Profit        |
+ |Total Revenues  | Total Loss     | Total Profit   |
  |----------------|----------------|----------------|
- |917.711.031     |14.679.670      |903.031.361     |
+ |3.059.036.770   |48.883.301      |3.007.094.432   |
+ 
+ remembering that all values are given in local currency where the data was obtained.
+ 
+ Using **RandomForestClassifier**  model, the bussines results will be
+ 
+ |Total Revenues  |Total Loss      |Total Profit    |
+ |----------------|----------------|----------------|
+ |2.693.625.424   |1.074.432.624   |1.619.192.800   |
+ 
+ And **XGBClassifier** model 
+ 
+ |Total Revenues  |Total Loss      |Total Profit    |
+ |----------------|----------------|----------------|
+ |2.444.995.806   |977.666.022     |1.467.329.784   |
  
 ## 8. Conclusion.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
