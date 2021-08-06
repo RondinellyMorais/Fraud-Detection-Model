@@ -57,30 +57,54 @@ The best model found was **CatBoostClassifier** because this model fit the data 
 |---------|--------|
 |0.98     |0.983   |
 
-we can think that this model was overfitted, but the **CatBoostClassifier** uses the 'Overfitting detector is active' feature which stops the model's evolution when overfitting occurs.</p>
+Confusion Matrix
+
+|   |0        |1       |
+|---|---------|--------|
+| 0 |2400     |26      |
+| 1 |10       |2500    |
+
+We can think that this model was overfitted, but the **CatBoostClassifier** uses the 'Overfitting detector is active' feature which stops the model's evolution when overfitting occurs.</p>
 
 **RandomForestClassifier:**
-The scund best model tested was the RandomForesClassifier and we can the values of the evaluation metrics in the tables below. </p>
+The secund model tested was the RandomForesClassifier and we can the values of the evaluation metrics in the tables below. </p>
 
 |Classe |precision | recall | f1-score |       
 |-------|--------- | ------ | -------- |       
-|   0   | 0.94     | 0.95   |  0.94    |        
-|   1   | 0.95     | 0.94   |  0.94    |   
+|   0   | 0.91     | 0.93   |  0.92    |        
+|   1   | 0.93     | 0.91   |  0.92    |   
 
 |Accuracy |ROC-AUC |
 |---------|--------|
-|0.94     |0.9434  |
+|0.92     |0.9199  |
+
+Confusion Matrix
+
+|   |0        |1       |
+|---|---------|--------|
+| 0 |2300     |170     |
+| 1 |220      |2200    |
+
+
+
 
 **XGBClassifier:**
 The XGBClassifier model showed too an impressive  performance in the classification task.
 |Classe |precision | recall | f1-score |       
 |-------|--------- | ------ | -------- |       
-|   0   | 0.94     | 0.93   |  0.93    |        
-|   1   | 0.93     | 0.94   |  0.93    |   
+|   0   | 0.93     | 0.99   |  0.96    |        
+|   1   | 0.99     | 0.92   |  0.95    |   
 
 |Accuracy |ROC-AUC |
 |---------|--------|
-|0.93     |0.9345  |
+|0.95     |0.9541  |
+
+Confusion Matrix
+
+|   |0        |1       |
+|---|---------|--------|
+| 0 |2000     |28      |
+| 1 |200      |2000    |
 
 ## 7. Bussines Results.
 
