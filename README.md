@@ -141,4 +141,6 @@ Summarizing the revenue, loss and profit due to classification  all test data by
  |2.444.995.806   |977.666.022     |1.467.329.784   |
  
 ## 8. Conclusion.
+
+## 9. Lessons Learned.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
