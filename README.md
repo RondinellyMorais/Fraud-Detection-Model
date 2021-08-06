@@ -14,7 +14,7 @@
 
 <p align="justity"> With this aggressive strategy, the company assumes the risks of failing to detect fraud and is remunerated for assertively detecting fraud. </p>
 
-##2. Bussines Assumptions.
+## 2. Bussines Assumptions.
 
  * Currently fraud rates remain at record highs all the world, with total cost of these crimes are around US$42 billion.
  * And 13% of companies and other organizations those who’d experienced a fraud said they’d lost US$50 million-plus.
@@ -108,11 +108,13 @@ Confusion Matrix
 
 ## 7. Bussines Results.
 
-Lets recap the bussines model: the company will receive 25% of the value of the transactions classified as truly fraud. the company receives 5% of the value of transactions classified as fraud but these transactions are legitimate. The company will pay the customer 100% of the value of transactions classified as legitimate, but these transactions are truly fraudulent.
+Lets recap the bussines model: the company will receive 25% of the value of the transactions classified as truly fraud. the company receives 5% of the value of transactions classified as fraud but these transactions are legitimate. The company will pay the customer 100% of the value of transactions classified as legitimate, but these transactions are truly fraudulent. </p>
 
 |Truly Fraud |False Fraud | False No Fraud |      
 |------------|----------- | -------------- |      
-|25% of gain | 5% of gain | 100% of loss   |         
+|25% of gain | 5% of gain | 100% of loss   |   
+
+We must multiply all fraudulent events correctly classified as legitimate by the win percentage (25%) and then subtract all fraudulent events wrongly classified as non-fraudulent multiplied by the loss percentage (100%). Then we owe previous result by the average value of fraudulent transactions and finally we add with average of non-truly non-fraudulent transactions multiplied the amount of fraudulent misclassified transactions and the percentage of gain (5%).</p> 
  
 ## 8. Conclusion.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
