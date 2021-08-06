@@ -115,6 +115,16 @@ Lets recap the bussines model: the company will receive 25% of the value of the 
 |25% of gain | 5% of gain | 100% of loss   |   
 
 We must multiply all fraudulent events correctly classified as legitimate by the win percentage (25%) and then subtract all fraudulent events wrongly classified as non-fraudulent multiplied by the loss percentage (100%). Then we owe previous result by the average value of fraudulent transactions and finally we add with average of non-truly non-fraudulent transactions multiplied the amount of fraudulent misclassified transactions and the percentage of gain (5%).</p> 
+
+Summarizing the revenue, loss and profit due to classification  all test data by **CatBoostClassifier**  model
+|Truly Fraud      |False Fraud   | False No Fraud |Revenues        | Loss           |  Profit        |
+|-----------------|--------------|----------------|----------------|----------------|----------------|
+|0.25X2500x1467967|0.05X26x178197| 1x10x1467967   |917.711.031     |14.679.670      |903.031.361     |
+
+ The **CatBoostClassifier** model was trained using 30% of all fractious records. Then, if we classific all fraudulent transaction records we get revenue, loss and  total profits.
+ |Revenues        | Loss           |  Profit        |
+ |----------------|----------------|----------------|
+ |917.711.031     |14.679.670      |903.031.361     |
  
 ## 8. Conclusion.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
