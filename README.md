@@ -116,10 +116,12 @@ Lets recap the bussines model: the company will receive 25% of the value of the 
 
 We must multiply all fraudulent events correctly classified as legitimate by the win percentage (25%) and then subtract all fraudulent events wrongly classified as non-fraudulent multiplied by the loss percentage (100%). Then we owe previous result by the average value of fraudulent transactions and finally we add with average of non-truly non-fraudulent transactions multiplied the amount of fraudulent misclassified transactions and the percentage of gain (5%).</p> 
 
+**PS1:** The average of fraudulent transaction amounts is 1.467.967 and The average of no fraudulent transaction amounts is 178.197.
+
 Summarizing the revenue, loss and profit due to classification  all test data by **CatBoostClassifier**  model
 |Truly Fraud      |False Fraud   | False No Fraud |Revenues        | Loss           |  Profit        |
 |-----------------|--------------|----------------|----------------|----------------|----------------|
-|0.25X2500x1467967|0.05X26x178197| 1x10x1467967   |917.711.031     |14.679.670      |903.031.361     |
+|0.25X2.500x1.467.967|0.05X26x178197| 1x10x1467.967   |917.711.031     |14.679.670      |903.031.361     |
 
  The **CatBoostClassifier** model was trained using 30% of all fractious records. Then, if we classific all fraudulent transaction records we get revenue, loss and  total profits.
  |Total Revenues  | Total Loss     | Total Profit   |
@@ -141,10 +143,12 @@ Summarizing the revenue, loss and profit due to classification  all test data by
  |2.444.995.806   |977.666.022     |1.467.329.784   |
  
 ## 8. Conclusion.
+Based on exploratory data analysis and machine learning models, we can reach the following conclusions about business strategyod Blocked Fraud Company </p>
 * The model with best peformance was **CatBoostClassifier**.
 * the ROC-AUC metric shows that this model has a reliability around **98%**.
-* Using  **CatBoostClassifier** model to classific all fraud records we get **3.059.036.770** in local currency.
+* Using  **CatBoostClassifier** model to classific all fraud records we get **3.059.036.770** of profit in local currency.
 * The profit spect is the around **3.010.153.469** in local currency.
+*  In case the model not be better then the random predictions, we expect that Blocked Fraud Company will have a loss of about **5.416.798.230** in local currency.
 
 ## 9. Lessons Learned.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
