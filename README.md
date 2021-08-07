@@ -151,4 +151,8 @@ Based on exploratory data analysis and machine learning models, we can reach the
 *  In case the model not be better then the random predictions, we expect that Blocked Fraud Company will have a loss of about **5.416.798.230** in local currency.
 
 ## 9. Lessons Learned.
+The main points learned in this task were:
+* The high performance of the machine learning model is essential for the company to make good profits.
+* Classification problems where classes are too unbalanced significantly affect the prediction model. therefore we must balance the classes.
+* An exploratory analysis of basic data can provide key insights.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
