@@ -1,5 +1,8 @@
-# Fraud-Detection-App
+# Fraud Detection
 ![Wellcome](/imagen/fraud.png?raw=True)
+[![author](https://img.shields.io/badge/author-rondinelly-red.svg)](https://www.linkedin.com/in/rondinellyoliveiradatascience)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io/gallery)
+[![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-learn/badges/version.svg)](https://anaconda.org/conda-forge/scikit-learn)
 ## 1. Bussines Problem.
 <p align="justify"> Let's take Blocker Fraude Company as an example to analyze our business problem. Blocker Fraude Company is a company specialized in the detection of fraud in financial transactions made through mobile devices. The company has a service called “Blocker Fraud” which guarantees the blocking of fraudulent transactions. </p>
 
