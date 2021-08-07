@@ -1,4 +1,5 @@
 # Fraud-Detection-App
+![Wellcome](/imagen/fraud.png?raw=True)
 ## 1. Bussines Problem.
 <p align="justify"> Let's take Blocker Fraude Company as an example to analyze our business problem. Blocker Fraude Company is a company specialized in the detection of fraud in financial transactions made through mobile devices. The company has a service called “Blocker Fraud” which guarantees the blocking of fraudulent transactions. </p>
 
