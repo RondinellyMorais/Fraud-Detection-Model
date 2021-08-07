@@ -124,7 +124,7 @@ Summarizing the revenue, loss and profit due to classification  all test data by
  The **CatBoostClassifier** model was trained using 30% of all fractious records. Then, if we classific all fraudulent transaction records we get revenue, loss and  total profits.
  |Total Revenues  | Total Loss     | Total Profit   |
  |----------------|----------------|----------------|
- |3.059.036.770   |48.883.301      |3.007.094.432   |
+ |3.059.036.770   |48.883.301      |3.010.153.469   |
  
  remembering that all values are given in local currency where the data was obtained.
  
@@ -141,6 +141,10 @@ Summarizing the revenue, loss and profit due to classification  all test data by
  |2.444.995.806   |977.666.022     |1.467.329.784   |
  
 ## 8. Conclusion.
+* The model with best peformance was **CatBoostClassifier**.
+* the ROC-AUC metric shows that this model has a reliability around **98%**.
+* Using  **CatBoostClassifier** model to classific all fraud records we get **3.059.036.770** in local currency.
+* The profit spect is the around **3.010.153.469** in local currency.
 
 ## 9. Lessons Learned.
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
