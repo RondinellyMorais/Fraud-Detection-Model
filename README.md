@@ -155,4 +155,11 @@ The main points learned in this task were:
 * The high performance of the machine learning model is essential for the company to make good profits.
 * Classification problems where classes are too unbalanced significantly affect the prediction model. therefore we must balance the classes.
 * An exploratory analysis of basic data can provide key insights.
+
+## 10. Next Steps to Improve.
+* To improve the performance and reliability of machine learning models, new datasets can be used as a test.
+* Always is possible make hyperparameter tunning and improve your models.
+* Apply these models to new types of business problems.
+
+
 [| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
