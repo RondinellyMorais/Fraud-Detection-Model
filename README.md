@@ -167,6 +167,3 @@ The main points learned in this task were:
 * To improve the performance and reliability of machine learning models, new datasets can be used as a test.
 * Always is possible make hyperparameter tunning and improve your models.
 * Apply these models to new types of business problems.
-
-
-[| PwC’s Global Economic Crime and Fraud Survey](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
