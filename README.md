@@ -156,7 +156,7 @@ Based on exploratory data analysis and machine learning models, we can reach the
 * The profit spect is the around **3.010.153.469** in local currency.
 *  In case the model not be better then the random predictions, we expect that Blocked Fraud Company will have a loss of about **5.416.798.230** in local currency.</p>
 **We simulate the detection of fraudulent transactions by selecting dataset features through a simple application, link below.** 
-
+[ Fraud-Detection-App.py](https://share.streamlit.io/rondinellymorais/fraud-detection-app/Fraud-Detection-App.py)
 ## 9. Lessons Learned.
 The main points learned in this task were:
 * The high performance of the machine learning model is essential for the company to make good profits.
