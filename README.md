@@ -36,6 +36,8 @@
  **Step 07. Choose the Best Machine Learning Model** Training some machine learning models and choose the model with best performance. </p>
  **Step 08. Convert Model Performance to Bussines Values** Convert the metrics scores of model performance in business practical results. </p>
  **Step 09. Deploy the Model to Production** Publish the model in cloud environment so the other people or services can use the results to improve th bussines decision.</p>
+ **Note: We can get the full exploratory data analysis on the notebook**
+ [Code | Fraud-Detection-notebook](https://github.com/RondinellyMorais/Fraud-Detection-App/blob/master/Fraud-Detection-notebook.ipynb) 
  
 ## 4. Top 3 Data Insight
 **Hypothese 01** Fraudulent transaction events have an average amount monetary greater than  average non-fraudulent events.</p>
@@ -147,12 +149,13 @@ Summarizing the revenue, loss and profit due to classification  all test data by
  |2.444.995.806   |977.666.022     |1.467.329.784   |
  
 ## 8. Conclusion.
-Based on exploratory data analysis and machine learning models, we can reach the following conclusions about business strategyod Blocked Fraud Company </p>
+Based on exploratory data analysis and machine learning models, we can reach the following conclusions about business strategyod Blocked Fraud Company. </p>
 * The model with best peformance was **CatBoostClassifier**.
 * the ROC-AUC metric shows that this model has a reliability around **98%**.
 * Using  **CatBoostClassifier** model to classific all fraud records we get **3.059.036.770** of profit in local currency.
 * The profit spect is the around **3.010.153.469** in local currency.
-*  In case the model not be better then the random predictions, we expect that Blocked Fraud Company will have a loss of about **5.416.798.230** in local currency.
+*  In case the model not be better then the random predictions, we expect that Blocked Fraud Company will have a loss of about **5.416.798.230** in local currency.</p>
+**We simulate the detection of fraudulent transactions by selecting dataset features through a simple application, link below.** 
 
 ## 9. Lessons Learned.
 The main points learned in this task were:
